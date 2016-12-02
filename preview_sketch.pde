@@ -13,7 +13,7 @@ float nmx, nmy;
 int res = 5;
 
 void setup() {
-  size(300, 300, P3D);
+  size(450, 450, P3D);
   noFill();
   noCursor();
   stroke(255);
@@ -62,7 +62,6 @@ void draw() {
   }
   
   image(circle, 0, 0);
-  //blend(circle, 0, 0, 300, 300, 0, 0, 300, 300, DIFFERENCE);
-  blend(circle, 0, 0, 300, 300, 0, 0, 300, 300, HARD_LIGHT);
+  blend(circle, 0, 0, 450, 450, 0, 0, 450, 450, HARD_LIGHT);
   
 }
